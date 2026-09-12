@@ -49,7 +49,7 @@ namespace IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_BARCINAS_MARCDENIZE.Controllers
                     Id = 6,
                     QuestionText = "Where is a database connection string commonly stored in an ASP.NET Core MVC application?",
                     Choices = new List<string> { "Program.cs only", "appsettings.json", "Index.cshtml", "Student.cs" },
-                    CorrectIndex = -1
+                    CorrectIndex = 1
                 },
                 new Question
                 {
