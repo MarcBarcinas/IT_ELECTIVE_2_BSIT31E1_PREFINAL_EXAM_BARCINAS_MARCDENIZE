@@ -35,7 +35,7 @@ namespace IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_BARCINAS_MARCDENIZE.Controllers
                     Id = 4,
                     QuestionText = "Which EF Core component is primarily responsible for communicating with the database?",
                     Choices = new List<string> { "DbContext", "DbSetView", "ControllerContext", "RazorContext" },
-                    CorrectIndex = -1
+                    CorrectIndex = 0
                 },
                 new Question
                 {
