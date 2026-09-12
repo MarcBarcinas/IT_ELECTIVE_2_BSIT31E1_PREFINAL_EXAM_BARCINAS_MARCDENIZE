@@ -98,7 +98,7 @@ namespace IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_BARCINAS_MARCDENIZE.Controllers
                     Id = 13,
                     QuestionText = "Which type of validation occurs in the browser before a request is sent to the server?",
                     Choices = new List<string> { "Database-level validation", "Client-side validation", "Server-side validation", "EF Core migration validation" },
-                    CorrectIndex = -1
+                    CorrectIndex = 1
                 },
                 new Question
                 {
