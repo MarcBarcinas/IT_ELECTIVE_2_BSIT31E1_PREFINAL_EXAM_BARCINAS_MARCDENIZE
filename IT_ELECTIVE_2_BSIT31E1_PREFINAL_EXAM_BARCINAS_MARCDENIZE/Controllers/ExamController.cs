@@ -119,7 +119,7 @@ namespace IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_BARCINAS_MARCDENIZE.Controllers
                     Id = 16,
                     QuestionText = "Which is the best reason for having a database-level unique constraint on StudentNumber?",
                     Choices = new List<string> { "It protects data integrity even if application-level validation is bypassed", "It makes Razor Views render faster", "It removes the need for a Controller", "It automatically creates a ViewModel" },
-                    CorrectIndex = -1
+                    CorrectIndex = 0
                 },
                 new Question
                 {
