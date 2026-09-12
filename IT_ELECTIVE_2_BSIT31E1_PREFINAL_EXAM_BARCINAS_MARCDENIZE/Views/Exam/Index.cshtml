@@ -1,0 +1,53 @@
+﻿@model List<IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_BARCINAS_MARCDENIZE.Models.Question>
+
+@{
+    ViewData["Title"] = "Pre-Final Exam";
+}
+
+<div class="exam-page">
+
+    <div class="exam-header">
+        <h1>IT ELECTIVE 2 - PRE-FINAL EXAM</h1>
+        <div class="student-info">
+            <h2>Marc Denize B. Barcinas - BSIT31E1</h2>
+        </div>
+    </div>
+
+    <div class="exam-content">
+
+        <div class="welcome-text">
+            <h2>I. MULTIPLE CHOICE</h2>
+        </div>
+
+        @if (Model != null && Model.Any())
+        {
+            int qIndex = 1;
+            @foreach (var q in Model)
+            {
+                <div class="question-item">
+                    <div class="q-number">
+                        QUESTION @qIndex.ToString("D2")
+                    </div>
+
+                    <h3>@q.QuestionText</h3>
+
+                    <div class="choices-list">
+                        @for (int i = 0; i < q.Choices.Count; i++)
+                        {
+                            char optionLetter = (char)('A' + i);
+                            bool isSelected = (i == q.CorrectIndex);
+
+                            <div class="option @(isSelected ? "selected-answer" : "")">
+                                <span class="letter">@optionLetter</span>
+                                <span>@q.Choices[i]</span>
+                            </div>
+                        }
+                    </div>
+                </div>
+                qIndex++;
+            }
+        }
+
+    </div>
+
+</div>
