@@ -21,7 +21,7 @@ namespace IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_BARCINAS_MARCDENIZE.Controllers
                     Id = 2,
                     QuestionText = "Which approach is being used when an existing database is used to generate EF Core entity classes?",
                     Choices = new List<string> { "Code-First", "Database-First", "Model-First", "Controller-First" },
-                    CorrectIndex = -1
+                    CorrectIndex = 1
                 },
                 new Question
                 {
