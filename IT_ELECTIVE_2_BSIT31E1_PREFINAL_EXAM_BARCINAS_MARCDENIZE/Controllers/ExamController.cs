@@ -42,7 +42,7 @@ namespace IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_BARCINAS_MARCDENIZE.Controllers
                     Id = 5,
                     QuestionText = "What does the following command primarily do?\n\ndotnet ef dbcontext scaffold \"ConnectionString\" Microsoft.EntityFrameworkCore.SqlServer -o Models",
                     Choices = new List<string> { "Deletes the database", "Creates a new MVC project", "Generates EF Core models and a DbContext from an existing database", "Starts the MVC application" },
-                    CorrectIndex = -1
+                    CorrectIndex = 2
                 },
                 new Question
                 {
