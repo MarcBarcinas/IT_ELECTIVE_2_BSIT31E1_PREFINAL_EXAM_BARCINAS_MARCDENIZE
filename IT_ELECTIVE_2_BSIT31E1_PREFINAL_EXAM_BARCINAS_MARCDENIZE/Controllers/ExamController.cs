@@ -91,7 +91,7 @@ namespace IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_BARCINAS_MARCDENIZE.Controllers
                     Id = 12,
                     QuestionText = "Consider this query:\n\nvar students = _context.Students.Include(s => s.Section).ToList();\n\nWhat is the main benefit of Include(s => s.Section)?",
                     Choices = new List<string> { "It loads the related Section navigation property", "It creates a Section object manually", "It removes the foreign key", "It prevents the query from accessing the database" },
-                    CorrectIndex = -1
+                    CorrectIndex = 0
                 },
                 new Question
                 {
