@@ -1,0 +1,40 @@
+# ============================================
+# .NET & ASP.NET Core (.gitignore)
+# ============================================
+ 
+# Build & Output Directories
+bin/
+obj/
+out/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+ 
+# Visual Studio & VS Code Files
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+ 
+# Test Results & Logs
+*.log
+TestResults/
+[Tt]est[R]esult*/
+ 
+# NuGet Packages
+*.nupkg
+**/packages/
+project.lock.json
+ 
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+ 
+# Environment / Local Secrets
+appsettings.Local.json
+.env

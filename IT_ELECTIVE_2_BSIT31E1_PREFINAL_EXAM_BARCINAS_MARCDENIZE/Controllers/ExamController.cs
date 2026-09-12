@@ -14,7 +14,7 @@ namespace IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_BARCINAS_MARCDENIZE.Controllers
                     Id = 1,
                     QuestionText = "What is the main problem solved by using a database instead of an in-memory collection?",
                     Choices = new List<string> { "It makes C# code shorter", "It prevents the application from restarting", "It allows data to persist after the application stops", "It removes the need for MVC" },
-                    CorrectIndex = -1
+                    CorrectIndex = 2
                 },
                 new Question
                 {
