@@ -77,7 +77,7 @@ namespace IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_BARCINAS_MARCDENIZE.Controllers
                     Id = 10,
                     QuestionText = "What does .Include() generally allow EF Core to do?",
                     Choices = new List<string> { "Delete the Section table", "Load related Section data together with Students", "Create a new Student", "Validate Student input" },
-                    CorrectIndex = -1
+                    CorrectIndex = 1
                 },
                 new Question
                 {
