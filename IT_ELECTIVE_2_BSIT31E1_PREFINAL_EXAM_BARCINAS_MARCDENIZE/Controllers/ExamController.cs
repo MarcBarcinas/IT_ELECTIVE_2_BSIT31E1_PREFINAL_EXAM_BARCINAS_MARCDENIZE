@@ -84,7 +84,7 @@ namespace IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_BARCINAS_MARCDENIZE.Controllers
                     Id = 11,
                     QuestionText = "Why might a ViewModel be used when displaying Student and Section information?",
                     Choices = new List<string> { "To replace the database", "To combine or shape the data specifically needed by the view", "To automatically create database tables", "To prevent controllers from using LINQ" },
-                    CorrectIndex = -1
+                    CorrectIndex = 1
                 },
                 new Question
                 {
