@@ -28,7 +28,7 @@ namespace IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_BARCINAS_MARCDENIZE.Controllers
                     Id = 3,
                     QuestionText = "What is the primary purpose of Entity Framework Core?",
                     Choices = new List<string> { "To create HTML pages automatically", "To replace the MVC Controller", "To map objects in code to relational database data", "To replace the C# compiler" },
-                    CorrectIndex = -1
+                    CorrectIndex = 2
                 },
                 new Question
                 {
