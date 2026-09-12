@@ -147,7 +147,7 @@ namespace IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_BARCINAS_MARCDENIZE.Controllers
                     Id = 20,
                     QuestionText = "A student already belongs to Section A for a particular subject. The application attempts to assign the same student to Section A again. What is the primary concern?",
                     Choices = new List<string> { "Data integrity", "HTML formatting", "CSS inheritance", "Razor syntax" },
-                    CorrectIndex = -1
+                    CorrectIndex = 0
                 }
             };
 
