@@ -70,7 +70,7 @@ namespace IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_BARCINAS_MARCDENIZE.Controllers
                     Id = 9,
                     QuestionText = "What is the purpose of a navigation property such as public Section Section { get; set; }?",
                     Choices = new List<string> { "It stores the database password", "It represents a relationship to another entity", "It creates a new database", "It validates the student's name" },
-                    CorrectIndex = -1
+                    CorrectIndex = 1
                 },
                 new Question
                 {
