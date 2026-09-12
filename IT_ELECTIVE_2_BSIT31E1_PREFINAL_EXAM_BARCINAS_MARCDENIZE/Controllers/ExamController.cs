@@ -140,7 +140,7 @@ namespace IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_BARCINAS_MARCDENIZE.Controllers
                     Id = 19,
                     QuestionText = "A user requests /Student/999, but Student 999 does not exist. What would be the most appropriate response?",
                     Choices = new List<string> { "Display the student's information anyway", "Display a Not Found (404) response/page", "Delete Student 999", "Create Student 999 automatically" },
-                    CorrectIndex = -1
+                    CorrectIndex = 1
                 },
                 new Question
                 {
