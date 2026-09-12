@@ -105,7 +105,7 @@ namespace IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_BARCINAS_MARCDENIZE.Controllers
                     Id = 14,
                     QuestionText = "Why is server-side validation still necessary if client-side validation exists?",
                     Choices = new List<string> { "Client-side validation can be bypassed", "Client-side validation automatically modifies the database", "Server-side validation only works with SQLite", "Client-side validation cannot display messages" },
-                    CorrectIndex = -1
+                    CorrectIndex = 0
                 },
                 new Question
                 {
