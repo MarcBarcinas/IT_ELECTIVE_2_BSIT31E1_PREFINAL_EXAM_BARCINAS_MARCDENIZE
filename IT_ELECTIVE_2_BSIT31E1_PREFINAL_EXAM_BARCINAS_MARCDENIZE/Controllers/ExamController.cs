@@ -126,7 +126,7 @@ namespace IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_BARCINAS_MARCDENIZE.Controllers
                     Id = 17,
                     QuestionText = "What is the purpose of a try...catch block in a controller?",
                     Choices = new List<string> { "To create navigation properties", "To catch and handle exceptions that may occur during execution", "To generate database tables", "To perform client-side validation" },
-                    CorrectIndex = -1
+                    CorrectIndex = 1
                 },
                 new Question
                 {
