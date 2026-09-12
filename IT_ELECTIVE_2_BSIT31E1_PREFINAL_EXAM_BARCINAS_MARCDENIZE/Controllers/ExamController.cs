@@ -56,7 +56,7 @@ namespace IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_BARCINAS_MARCDENIZE.Controllers
                     Id = 7,
                     QuestionText = "A Student belongs to exactly one Section, while a Section can contain many students. What type of relationship is this?",
                     Choices = new List<string> { "One-to-One", "One-to-Many", "Many-to-Many", "Many-to-One only" },
-                    CorrectIndex = -1
+                    CorrectIndex = 1
                 },
                 new Question
                 {
