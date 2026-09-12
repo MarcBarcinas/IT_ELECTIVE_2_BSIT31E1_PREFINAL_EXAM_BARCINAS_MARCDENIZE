@@ -112,7 +112,7 @@ namespace IT_ELECTIVE_2_BSIT31E1_PREFINAL_EXAM_BARCINAS_MARCDENIZE.Controllers
                     Id = 15,
                     QuestionText = "A school requires every student to have a unique Student Number. Which rule best represents this requirement?",
                     Choices = new List<string> { "Student Number should always be nullable", "Student Number should be unique", "Student Number should always be the same", "Student Number should contain only spaces" },
-                    CorrectIndex = -1
+                    CorrectIndex = 1
                 },
                 new Question
                 {
